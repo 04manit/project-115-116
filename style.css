@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: #ff0000;
+}
+canvas{
+    margin-top: 100px;
+    animation-name: canvas_anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_anim {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
